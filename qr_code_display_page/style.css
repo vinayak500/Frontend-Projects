@@ -1,0 +1,70 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html ,body{
+    min-height: 100%;
+}
+
+
+
+body{
+    margin:0px;
+}
+
+#main{
+    height:100vh;
+    width:100vw;
+    background-color:rgba(213,225,239,255);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-1{
+    height:50%;
+    width:18%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:10px;
+}
+
+
+#qr-code-container{
+     height: 60%;
+     width:90%;
+     background-image: url(images/image-qr-code.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 15px;
+     background-position: center;
+}
+
+
+#description-container{
+    height: 40%;
+    width:90%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#paragraph-1{
+     font-size: 20px;
+     font-weight: 900;
+     text-align: center;
+}
+
+#paragraph-2{
+    text-align: center;
+    font-size: 15px;
+}
+
